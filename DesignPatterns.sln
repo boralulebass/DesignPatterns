@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethodDesignPattern", "TemplateMethodDesignPattern", "{0498CDB1-FA1E-447D-A541-5234275BBFAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.TemplateMethod", "DesignPattern.TemplateMethod\DesignPattern.TemplateMethod.csproj", "{E00A3CFA-F499-43F1-9D1C-B50F033A0F3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IteratorDesignPattern", "IteratorDesignPattern", "{F5915573-9A4D-4E5B-989D-3C7484C43B7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.IteratorPattern", "DesignPattern.IteratorPattern\DesignPattern.IteratorPattern.csproj", "{F15C2CD8-A2A6-4C2A-BC34-D6F855644B9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompositeDesignPattern", "CompositeDesignPattern", "{01DD63EC-1EE7-44E6-BFE7-E0D1DC9A8DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPattern.Composite", "CompositeDesignPattern\DesingPattern.Composite\DesingPattern.Composite.csproj", "{0D5EE588-1934-449E-A6DB-57BFECEE0D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E00A3CFA-F499-43F1-9D1C-B50F033A0F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00A3CFA-F499-43F1-9D1C-B50F033A0F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00A3CFA-F499-43F1-9D1C-B50F033A0F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00A3CFA-F499-43F1-9D1C-B50F033A0F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15C2CD8-A2A6-4C2A-BC34-D6F855644B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15C2CD8-A2A6-4C2A-BC34-D6F855644B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15C2CD8-A2A6-4C2A-BC34-D6F855644B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15C2CD8-A2A6-4C2A-BC34-D6F855644B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5EE588-1934-449E-A6DB-57BFECEE0D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5EE588-1934-449E-A6DB-57BFECEE0D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5EE588-1934-449E-A6DB-57BFECEE0D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5EE588-1934-449E-A6DB-57BFECEE0D95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E00A3CFA-F499-43F1-9D1C-B50F033A0F3D} = {0498CDB1-FA1E-447D-A541-5234275BBFAB}
+		{F15C2CD8-A2A6-4C2A-BC34-D6F855644B9F} = {F5915573-9A4D-4E5B-989D-3C7484C43B7C}
+		{0D5EE588-1934-449E-A6DB-57BFECEE0D95} = {01DD63EC-1EE7-44E6-BFE7-E0D1DC9A8DCD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AB5D2EF-F505-4E1D-9BD7-E9BA08EE5A51}
+	EndGlobalSection
+EndGlobal
